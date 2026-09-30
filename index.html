@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Web Reva</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <h1>Reva Alleyda Pratiwi</h1>
+  <p>NIM: 102022500031</p>
+  <p>Fakultas Rekayasa Industri - Sistem Informasi</p>
+
+  <img src="./images/foto.jpg" alt="Foto Reva" class="foto">
+
+  <table border="1" align="center">
+    <tr><th>Nama</th><td>Reva Alleyda Pratiwi</td></tr>
+    <tr><th>NIM</th><td>102022500031</td></tr>
+    <tr><th>Prodi</th><td>Sistem Informasi</td></tr>
+  </table>
+
+  <p id="date"></p>
+
+  <h2>Social Media</h2>
+  <a href="https://www.instagram.com/allydprtw" target="_blank">Instagram</a> |
+  <a href="https://github.com/username" target="_blank">GitHub</a>
+
+  <script>
+    document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>

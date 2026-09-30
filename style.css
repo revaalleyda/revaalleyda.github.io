@@ -1,0 +1,32 @@
+body {
+  background-color: #ffe6f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #ff3399;
+}
+
+a {
+  text-decoration: none;
+  color: #cc0066;
+}
+
+a:hover {
+  color: #ff66b2;
+}
+.foto {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #ff99cc;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.05);
+}
